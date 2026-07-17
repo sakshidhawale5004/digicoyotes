@@ -66,7 +66,7 @@ const Index = () => {
           <div className="max-w-5xl mx-auto overflow-hidden">
             <h1 className="hero-title font-display text-5xl md:text-8xl font-bold tracking-tighter leading-tight text-white mb-6">
               <span className="block">DESIGNING THE</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">FUTURE OF DIGITAL</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">FUTURE OF DIGITAL</span>
             </h1>
           </div>
           <p className="hero-subtitle max-w-2xl text-lg md:text-xl text-white/70 font-body mb-10">
@@ -83,9 +83,9 @@ const Index = () => {
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="reveal">
-                <p className="text-blue-500 font-display tracking-[0.2em] uppercase text-sm mb-4 font-semibold">About Us</p>
+                <p className="text-orange-500 font-display tracking-[0.2em] uppercase text-sm mb-4 font-semibold">About Us</p>
                 <h2 className="font-display text-4xl md:text-6xl font-bold text-white leading-tight mb-8">
-                  We create <span className="text-purple-500 italic">immersive</span> digital realities.
+                  We create <span className="text-amber-500 italic">immersive</span> digital realities.
                 </h2>
                 <p className="text-white/70 text-lg leading-relaxed font-body mb-8">
                   Pushing the boundaries of what is possible on the web. Our team blends cutting-edge WebGL, sophisticated design, and precise engineering to deliver websites that don't just function—they leave a lasting impression.
@@ -101,7 +101,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="reveal relative h-[500px] w-full rounded-2xl overflow-hidden glass-panel border border-white/10 bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-md">
+              <div className="reveal relative h-[500px] w-full rounded-2xl overflow-hidden glass-panel border border-white/10 bg-gradient-to-br from-orange-500/10 to-amber-500/10 backdrop-blur-md">
                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,transparent_100%)]"></div>
                  {/* Abstract representation, could be an image or video */}
                  <div className="absolute inset-0 flex items-center justify-center">
@@ -116,7 +116,7 @@ const Index = () => {
         <section ref={servicesRef} className="min-h-screen flex items-center py-24">
           <div className="container mx-auto px-6">
             <div className="reveal text-center max-w-3xl mx-auto mb-20">
-              <p className="text-purple-500 font-display tracking-[0.2em] uppercase text-sm mb-4 font-semibold">Expertise</p>
+              <p className="text-amber-500 font-display tracking-[0.2em] uppercase text-sm mb-4 font-semibold">Expertise</p>
               <h2 className="font-display text-4xl md:text-6xl font-bold text-white leading-tight">
                 Our Digital Services
               </h2>
@@ -124,11 +124,11 @@ const Index = () => {
             
             <div className="grid md:grid-cols-3 gap-8">
               {Services.map((service, idx) => (
-                <div key={idx} className="reveal group relative p-1 rounded-2xl bg-gradient-to-b from-white/10 to-white/0 overflow-hidden hover:from-blue-500/50 hover:to-purple-500/50 transition-colors duration-500">
+                <div key={idx} className="reveal group relative p-1 rounded-2xl bg-gradient-to-b from-white/10 to-white/0 overflow-hidden hover:from-orange-500/50 hover:to-amber-500/50 transition-colors duration-500">
                   <div className="absolute inset-0 bg-black/60 backdrop-blur-xl -z-10 m-[1px] rounded-2xl"></div>
                   <div className="p-10 h-full flex flex-col justify-between">
                     <div>
-                      <service.icon className="w-12 h-12 text-blue-500 mb-8 group-hover:scale-110 transition-transform duration-500" />
+                      <service.icon className="w-12 h-12 text-orange-500 mb-8 group-hover:scale-110 transition-transform duration-500" />
                       <h3 className="text-2xl font-display font-bold text-white mb-4">{service.title}</h3>
                       <p className="text-white/60 font-body leading-relaxed">{service.desc}</p>
                     </div>
@@ -148,7 +148,7 @@ const Index = () => {
         <section ref={contactRef} className="py-32 bg-black/80 backdrop-blur-lg border-t border-white/10">
           <div className="container mx-auto px-6 text-center">
             <h2 className="reveal font-display text-5xl md:text-7xl font-bold text-white mb-8">
-              Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">innovate?</span>
+              Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">innovate?</span>
             </h2>
             <p className="reveal text-xl text-white/60 mb-12 max-w-2xl mx-auto">
               Let's create something extraordinary together. Reach out to discuss your next big project.
